@@ -1,12 +1,18 @@
 <script setup>
     import { RouterLink } from 'vue-router'
+    import { useRoute, useRouter } from 'vue-router';
+    import { ref } from 'vue';
     const props = defineProps(['itemSearch'])
 
-    function searchForItem() {
-        let searchItem=document.getElementById("searchItem").value;
-        console.log(searchItem)
-        location.href = "/items/" + searchItem
-    }
+    const search = ref('');
+    const router = useRouter();
+    const searchItem = () => {
+        console.log("here")
+        if (search.value) {
+            router.push(`/items/${search.value}`);
+            search.value = '';
+        }
+    };
 </script>
 
 <template>
@@ -16,8 +22,10 @@
             <div class="navbar-nav ml-auto mb-2 mb-lg-0 flex-horizontal">
                 <RouterLink to="/items" class="link">items</RouterLink>
                 <div v-if="itemSearch">
-                    <input id="searchItem" type="text" onkeypress="" placeholder="search item">
-                    <input id="search" type="button" value="search" @click="searchForItem">
+                    <form @submit.prevent="searchItem">
+                        <input v-model="search" type="text" placeholder="Search item">
+                        <button type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </div>
