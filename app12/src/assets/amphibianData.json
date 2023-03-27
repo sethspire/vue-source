@@ -1,0 +1,14 @@
+{
+    "frog": {
+        "img": "/images/frog.jpeg",
+        "info": "While frogs does include the subset known as toads but are primarily characterized by their aquatic nature and moist, smooth skin"
+    },
+    "toad": {
+        "img": "/images/toad.jpeg",
+        "info": "Toads are a subset of frogs which are characterized by dry, leathery skin, short legs, and large bumps covering glands."
+    },
+    "salamander": {
+        "img": "/images/salamander.jpeg",
+        "info": "Salamanders are characterized by their lizard-like appearance, slender bodies, blunt snouts, short limbs, and smooth and moist skin"
+    }
+}
