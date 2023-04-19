@@ -1,0 +1,102 @@
+{
+    "pepperoni" : {
+        "image": "pepperoni.png",
+        "width": "9%",
+        "numAdd": 20
+    },
+    "bacon" : {
+        "image": "bacon.png",
+        "width": "17%",
+        "numAdd": 20
+    },
+    "onion" : {
+        "image": "onion.png",
+        "width": "6.5%",
+        "numAdd": 20
+    },
+    "bell pepper" : {
+        "image": "bell pepper.png",
+        "width": "12%",
+        "numAdd": 20
+    },
+    "black olive" : {
+        "image": "olive.png",
+        "width": "8%",
+        "numAdd": 20
+    },
+    "jalapeno" : {
+        "image": "jalapeno.png",
+        "width": "22%",
+        "numAdd": 9
+    },
+    "tomato" : {
+        "image": "tomato.png",
+        "width": "12%",
+        "numAdd": 17
+    },
+    "mushroom" : {
+        "image": "mushroom.png",
+        "width": "9%",
+        "numAdd": 20
+    },
+    "pickle" : {
+        "image": "pickle.png",
+        "width": "11%",
+        "numAdd": 15
+    },
+    "sausage" : {
+        "image": "sausage.png",
+        "width": "20%",
+        "numAdd": 16
+    },
+    "chicken" : {
+        "image": "chicken.png",
+        "width": "14%",
+        "numAdd": 15
+    },
+    "ham" : {
+        "image": "ham.png",
+        "width": "20%",
+        "numAdd": 8
+    },
+    "baked potato" : {
+        "image": "potato.png",
+        "width": "14%",
+        "numAdd": 13
+    },
+    "beans" : {
+        "image": "beans.png",
+        "width": "13%",
+        "numAdd": 20
+    },
+    "squid" : {
+        "image": "squid.png",
+        "width": "20%",
+        "numAdd": 12
+    },
+    "crab" : {
+        "image": "crab.png",
+        "width": "16%",
+        "numAdd": 14
+    },
+    "fish" : {
+        "image": "fish.png",
+        "width": "15%",
+        "numAdd": 16
+    },
+    "ramen" : {
+        "image": "ramen.png",
+        "width": "19%",
+        "numAdd": 10
+    },
+    "chocolate milk" : {
+        "image": "milk.png",
+        "width": "14%",
+        "numAdd": 12
+    },
+    "cake" : {
+        "image": "cake.png",
+        "width": "21%",
+        "numAdd": 5
+    }
+}
